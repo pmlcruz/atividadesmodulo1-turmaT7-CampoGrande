@@ -1,0 +1,28 @@
+span.a{
+	display: block;
+  width: 600px;
+  height: 600px;
+  padding: 0px; 
+  background-color:green; 
+}
+span.b {
+  display: block;
+  width: 600px;
+  height: 600px;
+  padding: 0px;
+  background-color: blue; 
+}
+span.c {
+  display: block;
+  width: 600px;
+  height: 600px;
+  padding: 0px;
+  background-color: pink; 
+}
+span.d {
+  display: block;
+  width: 600px;
+  height: 600px;
+  padding: 0px;
+  background-color: yellow; 
+}
