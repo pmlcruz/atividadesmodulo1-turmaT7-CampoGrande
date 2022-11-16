@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+    <script>
+         tm=0; tf=0;tsalariom=0;tsalariof=0;cont=0;
+        while(cont<=5){
+        var nome = prompt('Nome:');
+        var sexo = prompt('Sexo:');
+        var salario = prompt('Salário:');
+        salario = parseFloat(salario);
+        if(sexo=='m'){
+            tm = tm +1;
+            tsalariom = tsalariom + salario;
+        }else if(sexo=='f'){
+            tf = tf +1;
+            tsalariof = tsalariof + salario;
+        }
+        cont++;
+    }
+        document.write('Total Feminino '+tf+'<br>');
+        document.write('Total salario Feminino:'+tsalariof+'<br>');
+        document.write('Total Masculino '+tf+'<br>');
+        document.write('Total salario Masculino:'+tsalariom+'<br>');
+
+
+    </script>
+</body>
+</html>
